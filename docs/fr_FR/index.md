@@ -16,7 +16,7 @@ Le plugin dans sa version 1.0.D nécessite d'être configuré. Pour cela activer
 
 L'écran de configuration du plugin se présente suivant deux variantes :
 
-​	<u>Variante n° 1:</u> Samsung Smart Tv Legacy ou Tizen ( autres que modèles J)
+​	**<u>Variante n° 1:</u> Samsung Smart Tv Legacy ou Tizen ( autres que modèles J)**
 
 ​    Dans cette variante, le plugin fonctionne sans démon et ne nécessite donc pas d'installer des dépendances ni par ailleurs de lancer un démon.
 
@@ -38,15 +38,15 @@ Le panneau de configuration comprend notamment :
 
 - le paramètre d'activation pour les modèles J. 
 
-  Par défaut le plugin présente lors de son installation une panneau de configuration pour les modèles Legacy ou Tizen. 
+  Par défaut le plugin présente lors de son installation un panneau de configuration pour les modèles Legacy ou Tizen. 
 
-  **Si vous souhaitez configurer une Smart Tv modèle J** , il faut cocher la case **Daemon actif** et afin d'avoir accès aux paramètres détaillés  de la configuration d'un modèle J. L'écran est présenté dans la variante n° 2 (ci-dessous).
+  **Si vous souhaitez configurer une Smart Tv modèle J** , il faut cocher la case **Daemon actif**, afin d'avoir accès aux paramètres détaillés  de la configuration d'un modèle J. L'écran est présenté dans la variante n° 2 (ci-dessous).
 
   
 
-<u>Variante n° 2:</u> Samsung Smart Tv modèles J
+**<u>Variante n° 2:</u> Samsung Smart Tv modèles J**
 
-​    Dans cette variante, le plugin fonctionne en utilisant un démon qui sert d'interface entre le plugin et la Smart Tv. Il est alors nécessaire d'installer des 	dépendances puis  de lancer le démon.
+​    Dans cette variante, le plugin fonctionne en utilisant un démon qui sert d'interface entre le plugin et la Smart Tv. Il est alors nécessaire d'installer des dépendances puis  de lancer le démon.
 
 ​	L'écran de configuration se présente ainsi:
 
@@ -61,6 +61,9 @@ Le panneau de configuration comprend notamment :
 - la gestion des dépendances,
 - la gestion du daemon propre aux modèles Samsung J,
 - les paramètres propres à la configuration de la télécommande,
+  - Indication de la dimension souhaitée d'affichage de la télécommande pour un PC ou une tablette. Indiquer, ici, les dimensions (largeur|hauteur) . Fournir deux nombres séparés par le symbole '|'.
+  - Indication de la dimension souhaitée d'affichage de la télécommande pour un téléphone mobile. Indiquer, ici, les dimensions (largeur|hauteur) . Fournir deux nombres séparés par le symbole '|'.
+
 - les paramètres essentiels du daemon.
 
 Les paramètres du daemon sont les suivants:

@@ -14,37 +14,41 @@ The TvDomSamsung plugin is used to control a Samsung TV ( *smart, connected* ) a
 
 The plugin needs to be configured. To do this activate the menu **Plugins -> Gestion des plugins**, then click on the plugin icon TvDomSamsung.![plugin-000](../images/TvDomSamsung_icon.png)
 
-The plugin configuration screen looks like this:
+The plugin configuration screen comes in two variants:
+
+ **<u>Variant n° 1:</u> Samsung Smart Tv Legacy or Tizen (other than J models)**
+
+ In this variant, the plugin works without a daemon and therefore does not require installing dependencies or otherwise starting a daemon.
+
+The configuration screen looks like this:
 
 
 
-![plugin-001](../images/TvDomSamsung-image-14.png)
+![plugin-001](../images/TvDomSamsung-image-16-0.png)
 
-The configuration panel notably includes:
+The control panel includes:
 
-	- dependency management,
-	- daemon management specific to Samsung J models,
-	- specific parameters to the configuration of the remote       control,
-	- the essential parameters of the daemon.
+- the parameters specific to the configuration of the remote control are as follows,
 
-I will not present here the details of the first two panels: dependency and daemon.
+   - Indication of the desired size of the remote control display for a PC or a tablet. Indicate, here, the dimensions (width|height). Provide two numbers separated by the symbol '|'.
 
+   - Indication of the desired remote control display size for a mobile phone. Indicate, here, the dimensions (width|height). Provide two numbers separated by the symbol '|'.
 
+- the activation parameter for J models.
 
-The parameters of the daemon are as follows:
+   By default the plugin presents during its installation a control panel for Legacy or Tizen models.
 
-- Pause time: time required between sending a sequence of commands to the television. (Used by the sendKey command in a scenario for example).
-- Active daemon, check only for Samsung J models. The daemon will only be launched if this choice is activated. It is therefore unnecessary for other TV models.
-- Daemon port: daemon communication port. Select an available port on the machine where the daemon will be installed.
-- Http time out: time out for http links. Can be adapted according to the latency of the TV.
-- Time out connection. (Same).
-- Log level. In normal operation, to minimize the volume of logs, set the level to INFO.
+   **If you wish to configure a Smart TV model J**, you must check the box **Daemon active**, in order to have access to the detailed parameters of the configuration of a model J. The screen is presented in the variant n° 2 (below).
 
-Once the entry has been made, save the parameters.
+  
 
-Here is the presentation of the configuration of the plugin for Smart TV models other than the J model.
+**<u>Variant no. 2:</u> Samsung Smart TV models J**
 
-![plugin-002](../images/TvDomSamsung-image-13.png)
+ In this variant, the plugin works by using a daemon which acts as an interface between the plugin and the Smart TV. It is then necessary to install dependencies and then launch the daemon.
+
+The configuration screen looks like this:
+
+![plugin-002](../images/TvDomSamsung-image-14.png)
 
 
 
@@ -58,17 +62,10 @@ Here is the presentation of the configuration of the plugin for Smart TV models 
   - Connection time out. (Same).
   - Log level. In normal operation, in order to minimize the volume of logs, set the level to INFO.
 
-  Once the entry is made, save the parameters.
+  Once entered, save the configuration panel settings. Then, in order:
 
-  Here is the presentation of the plugin configuration for Smart TV models other than the J model.
-
-  ![plugin-002](../images/TvDomSamsung-image-15.png)
-
-  
-
-  
-
-  The notable difference lies in the choice **Active Daemon** which is not checked.
+  - Launch dependencies.
+- Start the daemon.
 
 After installing the plugin, you need to create an instance by clicking in the plugin menu on the multimedia submenu, then TvDomSamsung.
 
