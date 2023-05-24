@@ -24,7 +24,9 @@ L'écran de configuration du plugin se présente suivant deux variantes :
 
 
 
-![TvDomSamsung-image-16-0](F:\Developpement\TvDomsang.git\TvDomSamsung\docs\images\TvDomSamsung-image-16-0.png)
+![plugin-1](../images/TvDomSamsung-image-16-0.png)
+
+
 
 Le panneau de configuration comprend notamment :
 
