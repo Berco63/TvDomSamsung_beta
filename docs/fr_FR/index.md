@@ -34,7 +34,7 @@ Le panneau de configuration comprend notamment :
 
   - Indication de la dimension souhaitée d'affichage de la télécommande pour un PC ou une tablette. Indiquer, ici, les dimensions (largeur&#124;hauteur) . Fournir deux nombres séparés par le symbole '&#124;'.
 
-  - Indication de la dimension souhaitée d'affichage de la télécommande pour un téléphone mobile. Indiquer, ici, les dimensions (largeur'&#124;hauteur) . Fournir deux nombres séparés par le symbole ''&#124;'.
+  - Indication de la dimension souhaitée d'affichage de la télécommande pour un téléphone mobile. Indiquer, ici, les dimensions (largeur&#124;hauteur) . Fournir deux nombres séparés par le symbole '&#124;'.
 
 - le paramètre d'activation pour les modèles J. 
 
@@ -61,8 +61,8 @@ Le panneau de configuration comprend notamment :
 - la gestion des dépendances,
 - la gestion du daemon propre aux modèles Samsung J,
 - les paramètres propres à la configuration de la télécommande,
-  - Indication de la dimension souhaitée d'affichage de la télécommande pour un PC ou une tablette. Indiquer, ici, les dimensions (largeur'&#124;hauteur) . Fournir deux nombres séparés par le symbole ''&#124;'.
-  - Indication de la dimension souhaitée d'affichage de la télécommande pour un téléphone mobile. Indiquer, ici, les dimensions (largeur'&#124;hauteur) . Fournir deux nombres séparés par le symbole ''&#124;'.
+  - Indication de la dimension souhaitée d'affichage de la télécommande pour un PC ou une tablette. Indiquer, ici, les dimensions (largeur&#124;hauteur) . Fournir deux nombres séparés par le symbole '&#124;'.
+  - Indication de la dimension souhaitée d'affichage de la télécommande pour un téléphone mobile. Indiquer, ici, les dimensions (largeur&#124;hauteur) . Fournir deux nombres séparés par le symbole ''&#124;'.
 
 - les paramètres essentiels du daemon.
 

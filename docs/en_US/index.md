@@ -30,9 +30,9 @@ The control panel includes:
 
 - the parameters specific to the configuration of the remote control are as follows,
 
-   - Indication of the desired size of the remote control display for a PC or a tablet. Indicate, here, the dimensions (width|height). Provide two numbers separated by the symbol '|'.
+   - Indication of the desired size of the remote control display for a PC or a tablet. Indicate, here, the dimensions (width&#124;height). Provide two numbers separated by the symbol '&#124;'.
 
-   - Indication of the desired remote control display size for a mobile phone. Indicate, here, the dimensions (width|height). Provide two numbers separated by the symbol '|'.
+   - Indication of the desired remote control display size for a mobile phone. Indicate, here, the dimensions (width&#124;height). Provide two numbers separated by the symbol '&#124;'.
 
 - the activation parameter for J models.
 
@@ -48,9 +48,17 @@ The control panel includes:
 
 The configuration screen looks like this:
 
+
 ![plugin-002](../images/TvDomSamsung-image-14.png)
 
+The control panel includes:
 
+- dependency management,
+- management of the daemon specific to Samsung J models,
+- the parameters specific to the configuration of the remote control,
+  - Indication of the desired remote control display size for a PC or tablet. Indicate, here, the dimensions (width&#124;height) . Provide two numbers separated by the symbol ‘&#124;’.
+  - Indication of the desired remote control display size for a mobile phone. Indicate, here, the dimensions (width&#124;height) . Provide two numbers separated by the symbol ‘&#124;’.
+- the essential parameters of the daemon.
 
 - The daemon parameters are as follows:
 
@@ -62,10 +70,14 @@ The configuration screen looks like this:
   - Connection time out. (Same).
   - Log level. In normal operation, in order to minimize the volume of logs, set the level to INFO.
 
-  Once entered, save the configuration panel settings. Then, in order:
+  
 
+  Once entered, save the configuration panel settings. Then, in order:
+  
   - Launch dependencies.
-- Start the daemon.
+  - Start the daemon.
+
+
 
 After installing the plugin, you need to create an instance by clicking in the plugin menu on the multimedia submenu, then TvDomSamsung.
 
